@@ -3,7 +3,7 @@
 import requests
 
 # ✅ Use your actual Gemini API key
-GEMINI_API_KEY = "AIzaSyCZC2GgmmFhQwl6PLCJ-UxwCHVxz3ybz4E"
+GEMINI_API_KEY = "AIzaSyANG5DjGcMWztbQqkV2b8UD9bnDEm3M_M0"
 
 # ✅ Key is passed via URL query 
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -51,3 +51,4 @@ def generate_questions(tech_stack):
 
 
 # print(generate_questions(["python"]))
+
