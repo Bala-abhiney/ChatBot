@@ -2,7 +2,7 @@ import requests
 import re
 
 # ✅ Use your actual Gemini API key
-GEMINI_API_KEY = "AIzaSyANG5DjGcMWztbQqkV2b8UD9bnDEm3M_M0"
+GEMINI_API_KEY = "AIzaSyC4hfjc6ZT9R2rcJYuE_Y9jlGEBYerZzgA"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
 
 def validate_answers(answers):
@@ -57,5 +57,6 @@ def validate_answers(answers):
             "score": 0,
             "feedback": "Error validating answers. Please try again."
         }
+
 
 # print(validate_answers({"answer_1": "python : list is a good datatype"}))
